@@ -1,0 +1,34 @@
+.moola_face_vintage {font-family:'Times new roman', 'serif';}
+.moola_face_vintage #page-header .headermain {background-color:transparent;color:#171717;border-color:#444;background-image:url([[pix:theme|vintage/transparent-background]]);background-repeat: repeat;}
+.moola_face_vintage #page-header {color:#eee;background-image:url([[pix:theme|vintage/header-background]]);color:#333;}
+.moola_face_vintage .header {background-image:url([[pix:theme|vintage/heading-background]]);border-color:#171717;text-shadow:1px 2px 1px #FFF;}
+.moola_face_vintage .navbar {background-image:url([[pix:theme|vintage/transparent-background]]);border-color:#444;background-color:transparent;background-repeat: repeat;}
+.moola_face_vintage .navbar .breadcrumb {float:none;display:inline-block;width:78%;color:#333;}
+.moola_face_vintage .navbar .navbutton {float:none;display:inline-block;width:20%;color:#333;}
+.moola_face_vintage #custommenu {border-color:#444;}
+.moola_face_vintage #custommenu .yui3-menu {background-image:url([[pix:theme|vintage/transparent-background]]);background-color:transparent;border-color:#fea81c;background-repeat: repeat;}
+.moola_face_vintage #region-bar .block .content-wrap .content {background-image:url([[pix:theme|vintage/header-background]]);border-color:#444;}
+.moola_face_vintage #region-bar .block:hover .header {background-color:#444;}
+.moola_face_vintage #region-bar .block .content-wrap .content > ul,
+.moola_face_vintage #region-bar .block .content-wrap .content > div,
+.moola_face_vintage #region-bar .block .content-wrap .content > table {background-color:#f7f7f7;background-image:url([[pix:theme|vintage/background]]);color:#333;}
+.moola_face_vintage #menu-bar-wrap {background-image:url([[pix:theme|vintage/header-background]]);border-color:#444;}
+.moola_face_vintage #menu-bar-heading .headermain {color:#f7f7f7;background-image:url([[pix:theme|vintage/transparent-background]]);background-color:transparent;background-repeat: repeat;}
+.moola_face_vintage #region-bar .content div,
+.moola_face_vintage #region-bar .content p,
+.moola_face_vintage #region-bar .content li,
+.moola_face_vintage #region-bar .content td,
+.moola_face_vintage #region-bar .content th {color:#333;}
+
+.moola_face_vintage a:link, a:visited {color:#0096ff;}
+.moola_face_vintage #page-header a:link,
+.moola_face_vintage #page-header a:visited,
+.moola_face_vintage .header a,
+.moola_face_vintage .navbar a,
+.moola_face_vintage #custommenu .yui3-menu a {color:#161616;font-weight:bold;}
+
+.moola_face_vintage .course-content ul li.section .content {background-image:url([[pix:theme|vintage/background]]);min-height:50px;}
+.moola_face_vintage.path-course-view ul .content,
+.moola_face_vintage.path-course-view ul .section {background-color:transparent;background-image:url([[pix:theme|vintage/transparent-background]]);background-repeat: repeat;}
+
+.fake_block_moola .possibleface.vintage {width:32px;height:32px;background-image:url([[pix:theme|vintage/header-background]]);}

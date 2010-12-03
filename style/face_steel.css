@@ -1,0 +1,22 @@
+.moola_face_steel #page-header .headermain {background-color:#fea81c;background-image:url([[pix:theme|steel/header-background]]);color:#f7f7f7;border-color:#444;}
+.moola_face_steel #page-header {color:#eee;}
+.moola_face_steel .header {background-image:url([[pix:theme|steel/heading-background]]);border-color:#fea81c;}
+.moola_face_steel .navbar {background-image:url([[pix:theme|steel/heading-background]]);border-color:#444;}
+.moola_face_steel #custommenu {border-color:#444;}
+.moola_face_steel #custommenu .yui3-menu {background-image:url([[pix:theme|steel/heading-background]]);border-color:#fea81c;}
+.moola_face_steel #region-bar .block .content-wrap .content {background-image:url([[pix:theme|steel/header-background]]);border-color:#444;}
+.moola_face_steel #region-bar .block:hover .header {background-color:#444;}
+.moola_face_steel #region-bar .block .content-wrap .content > ul,
+.moola_face_steel #region-bar .block .content-wrap .content > div,
+.moola_face_steel #region-bar .block .content-wrap .content > table {background-color:#444;}
+.moola_face_steel #menu-bar-wrap {background-image:url([[pix:theme|steel/header-background]]);border-color:#444;}
+.moola_face_steel #menu-bar-heading .headermain {color:#f7f7f7;}
+
+.moola_face_steel a:link, a:visited {color:#0096ff;}
+.moola_face_steel #page-header a:link,
+.moola_face_steel #page-header a:visited,
+.moola_face_steel .header a,
+.moola_face_steel .navbar a,
+.moola_face_steel #custommenu .yui3-menu a {color:#f7f7f7;font-weight:bold;}
+
+.fake_block_moola .possibleface.steel {width:32px;height:32px;background-image:url([[pix:theme|steel/header-background]]);}

@@ -1,0 +1,83 @@
+html {margin:0;padding:0;background-color:#FFF;}
+body {margin:0;padding:0;}
+
+#page {margin:0;padding:0;padding-bottom:65px;min-width:800px;}
+/*#page-wrap {position:absolute;top:0;left:0;width:100%;height:100%;overflow:auto;z-index:100;}*/
+#page-content {margin:10px;}
+#menu-bar {position:fixed;bottom:8px;left:10%;width:80%;overflow:visible;z-index:2000;text-align:center;}
+#menu-bar-wrap {display:inline-block;background-image:url([[pix:theme|menu-bar-gradient]]);background-color:#444;position:relative;-moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px;box-shadow:2px 3px 2px #131313;-moz-box-shadow:2px 3px 4px #333;-webkit-box-shadow:2px 3px 4px #333;min-width:50%;}
+#menu-bar-content {}
+#menu-bar-heading {width:100%;}
+#menu-bar-heading .headermain {float:none;text-align:center;margin:3px 1em;font-size:11pt; color:#FFF;text-shadow:#131313 2px 3px 2px;}
+#region-bar {text-align:center;}
+#region-bar .skip-block-to {width:1px; display:inline-block;}
+
+#region-bar .block {display:inline-block;height:32px;width:32px;margin:3px;background-image:url([[pix:theme|blocks/unknown]]);background-repeat:no-repeat;border:0;}
+#region-bar .block .header {display:none;}
+#region-bar .block .content-wrap {display:none;position:absolute;bottom:40%;height:650px;width:100%;left:0;z-index:1000;}
+#region-bar .block .content-wrap .content {position:absolute;bottom:48px;width:100%;left:0;background-color:#444444;background-image:url([[pix:theme|menu-bar-gradient]]);background-repeat:repeat-x;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;max-height:600px;overflow:auto;text-align:left;padding:0;-webkit-box-shadow:2px 3px 4px #333;box-shadow:2px 3px 2px #131313;-moz-box-shadow:2px 3px 4px #333;min-height:50px;}
+#region-bar .block .content-wrap .content > ul,
+#region-bar .block .content-wrap .content > div {margin:4px;}
+#region-bar .block .content-wrap .content .block_action.notitle {display:none;}
+
+#region-bar .content div,
+#region-bar .content p,
+#region-bar .content li,
+#region-bar .content td,
+#region-bar .content th {color:#f7f7f7;}
+#region-bar .content a:link,
+#region-bar .content a:visited {color:#FFA800;}
+#region-bar .content a:hover {color:#ff5f00;}
+
+#region-bar .block:hover .header {display:block;position:absolute;top:0;width:100%;left:0;background: transparent;}
+#region-bar .block:hover .header .title {text-align:center;width:80%;margin:3px auto;background-color:#444444;background-image:url([[pix:theme|menu-bar-gradient]]);text-shadow:#131313 2px 3px 2px;color:#FFF;font-size:11pt;}
+#region-bar .block:hover .header .commands {position:absolute;right:10px;top:3px;float:none;z-index:2000;}
+
+#region-bar .block:hover .content-wrap {display:block;}
+
+#region-bar .blockmovetarget {display:inline-block;margin-bottom:0;height:32px;width:10px;}
+#region-bar .block.beingmoved {opacity:0.2;}
+#region-bar .blockannotation {display:none;}
+
+#region-bar .block_activity_modules {}
+#region-bar .block_admin_bookmarks {}
+#region-bar .block_blog_menu {}
+#region-bar .block_blog_recent {}
+#region-bar .block_blog_tags {}
+#region-bar .block_calendar_month {background-image:url([[pix:theme|blocks/calendar]]);}
+#region-bar .block_calendar_upcoming {background-image:url([[pix:theme|blocks/calendar_upcoming]]);}
+#region-bar .block_comments {}
+#region-bar .block_community {}
+#region-bar .block_completionstatus {}
+#region-bar .block_course_list {background-image:url([[pix:theme|blocks/course_list]]);}
+#region-bar .block_course_overview {}
+#region-bar .block_course_summary {background-image:url([[pix:theme|blocks/course_summary]]);}
+#region-bar .block_feedback {}
+#region-bar .block_glossary_random {}
+#region-bar .block_html {}
+#region-bar .block_login {}
+#region-bar .block_mentees {}
+#region-bar .block_messages {}
+#region-bar .block_mnet_hosts {}
+#region-bar .block_myprofile {}
+#region-bar .block_navigation {background-image:url([[pix:theme|blocks/navigation]]);}
+#region-bar .block_news_items {background-image:url([[pix:theme|blocks/news_items]]);}
+#region-bar .block_online_users {}
+#region-bar .block_participants {}
+#region-bar .block_private_files {}
+#region-bar .block_quiz_results {}
+#region-bar .block_recent_activity {background-image:url([[pix:theme|blocks/recent_activity]]);}
+#region-bar .block_rss_client {background-image:url([[pix:theme|blocks/rss]]);}
+#region-bar .block_search {}
+#region-bar .block_search_forums {background-image:url([[pix:theme|blocks/search_forums]]);}
+#region-bar .block_search_links {}
+#region-bar .block_selfcompletion {}
+#region-bar .block_settings {background-image:url([[pix:theme|blocks/settings]]);}
+#region-bar .block_site_main_menu {}
+#region-bar .block_social_activities {}
+#region-bar .block_tag_flickr {}
+#region-bar .block_tag_youtube {}
+#region-bar .block_tags {}
+
+.pagelayout-frontpage #custommenu {padding:0;}
+.pagelayout-frontpage .navbar {margin:5px 0;}

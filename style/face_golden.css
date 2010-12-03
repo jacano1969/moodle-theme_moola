@@ -1,0 +1,21 @@
+.moola_face_golden #page-header .headermain {background-color:#fea81c;background-image:url([[pix:theme|golden/header-background]]);color:#444;border-color:#444;}
+.moola_face_golden .header {background-image:url([[pix:theme|golden/heading-background]]);border-color:#777;}
+.moola_face_golden .navbar {background-image:url([[pix:theme|golden/heading-background]]);border-color:#444;}
+.moola_face_golden #custommenu {border-color:#444;}
+.moola_face_golden #custommenu .yui3-menu {background-image:url([[pix:theme|golden/heading-background]]);border-color:#fea81c;}
+.moola_face_golden #region-bar .block .content-wrap .content {background-image:url([[pix:theme|golden/header-background]]);border-color:#444;}
+.moola_face_golden #region-bar .block:hover .header {background-color:#444;}
+.moola_face_golden #region-bar .block .content-wrap .content > ul,
+.moola_face_golden #region-bar .block .content-wrap .content > div,
+.moola_face_golden #region-bar .block .content-wrap .content > table {background-color:#444;}
+.moola_face_golden #menu-bar-wrap {background-image:url([[pix:theme|golden/header-background]]);border-color:#444;}
+.moola_face_golden #menu-bar-heading .headermain {color:#444;text-shadow: #FFF 2px 3px 2px;}
+
+.moola_face_golden a:link, a:visited {color:#0096ff;}
+.moola_face_golden #page-header a:link,
+.moola_face_golden #page-header a:visited,
+.moola_face_golden .header a,
+.moola_face_golden .navbar a,
+.moola_face_golden #custommenu .yui3-menu a {color:#333;font-weight:bold;}
+
+.fake_block_moola .possibleface.golden {width:32px;height:32px;background-image:url([[pix:theme|golden/header-background]]);}
